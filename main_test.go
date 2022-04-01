@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func BenchmarkGenerateBwmarrinSnowflake(b *testing.B) {
+func BenchmarkBwmarrinSnowflake(b *testing.B) {
 
 	bw := NewBW()
 
@@ -13,7 +13,7 @@ func BenchmarkGenerateBwmarrinSnowflake(b *testing.B) {
 	}
 }
 
-func BenchmarkGenerateFishTennisSnowflake(b *testing.B) {
+func BenchmarkFishTennisSnowflake(b *testing.B) {
 
 	ft := NewFt()
 
@@ -22,7 +22,7 @@ func BenchmarkGenerateFishTennisSnowflake(b *testing.B) {
 	}
 }
 
-func BenchmarkGenerateBwmarrinSnowflakeParallel(b *testing.B) {
+func BenchmarkBwmarrinSnowflakeParallel(b *testing.B) {
 
 	bw := NewBW()
 
@@ -34,7 +34,7 @@ func BenchmarkGenerateBwmarrinSnowflakeParallel(b *testing.B) {
 
 }
 
-func BenchmarkGenerateFishTennisSnowflakeParallel(b *testing.B) {
+func BenchmarkFishTennisSnowflakeParallel(b *testing.B) {
 
 	ft := NewFt()
 
